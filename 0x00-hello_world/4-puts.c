@@ -1,13 +1,12 @@
+#inlude<stdio h>
 /**
- * main -is the entry point of the programme and is needed in every C programe.
+ * main -is an entry point for every c programming
  *
- * Return: Always 0 (Sucess)
+ * Return Always 0 (Sucess)
  */
-#include <stdio.h>
-
 int main(void)
 {
-  puts("\"Programming is like building a multilingual puzzle"
-	return (0);
-
+	puts("\"Programming is like building a multilingual puzzle")
+		return (0)
 }
+ 
