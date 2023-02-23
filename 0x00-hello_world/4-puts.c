@@ -1,5 +1,7 @@
 /**
  * main -is the entry point of the programme and is needed in every C programe.
+ *
+ * Return: Always 0 (Sucess)
  */
 #include <stdio.h>
 
