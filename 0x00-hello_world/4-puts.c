@@ -1,4 +1,4 @@
-#inlude<stdio h>
+#inlude<stdio.h>
 /**
  * main -is an entry point for every c programming
  *
