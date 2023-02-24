@@ -1,4 +1,4 @@
-#inlude<stdio.h>
+#inlude < stdio.h >
 /**
  * main -is an entry point for every c programming
  *
@@ -8,6 +8,4 @@ int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
-		
 }
- 
