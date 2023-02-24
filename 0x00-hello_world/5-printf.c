@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  *main -entry point for every c programming
- * Return Always 0(Sucess)
+ * Return Always 0 (Sucess)
  */
 int main(void)
 {
