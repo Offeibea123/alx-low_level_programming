@@ -5,19 +5,35 @@
  */
 void print_to_98(int w)
 {
-if (w > 98)
+int cap_num = 98
+
+if (w > cap_num)
 {
-for (; w  > 98; w--)
+while (n >= cap_num)
 {
-printf(" % d ", w);
-}
-}
-else if (w < 98)
-{
-for (; w < 98; w++)
+if (n != cap_num)
 {
 printf(" % d ", w);
 }
+else
+{
+printf(" % d ", w;
 }
-printf(" % d\n", w);
+w--;
+}
+}
+else
+(
+while (n <= cap_num)
+{
+if (n != cap_num)
+{
+printf(" % d ", w);
+)
+else
+{
+printf(" % d ", w);
+)
+w++
+}
 }
