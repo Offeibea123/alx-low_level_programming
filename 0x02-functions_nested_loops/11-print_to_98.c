@@ -5,26 +5,25 @@
  */
 void print_to_98(int w)
 {
-int cap_num = 98
+int cap_num = 98;
 
 if (w > cap_num)
 {
-while (n >= cap_num)
+while (w >= cap_num)
 {
-if (n != cap_num)
+if (w != cap_num)
 {
 printf(" % d ", w);
 }
 else
 {
-printf(" % d ", w;
+printf(" % d ", w);
 }
 w--;
 }
-}
-else
-(
-while (n <= cap_num)
+}else
+{
+while (w <= cap_num)
 {
 if (n != cap_num)
 {
@@ -34,6 +33,6 @@ else
 {
 printf(" % d ", w);
 )
-w++
+w++;
 }
 }
