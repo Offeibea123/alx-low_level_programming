@@ -9,15 +9,15 @@ if (w > 98)
 {
 for (; w  > 98; w--)
 {
-printf(" % d", w);
+printf(" % d ", w);
 }
 }
 else if (w < 98)
 {
 for (; w < 98; w++)
 {
-printf(" % d", w);
+printf(" % d ", w);
 }
 }
-printf(" % d", w);
+printf(" % d\n", w);
 }
