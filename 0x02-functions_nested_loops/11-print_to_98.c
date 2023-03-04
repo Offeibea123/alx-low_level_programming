@@ -1,23 +1,23 @@
 #include <stdio.h>
 /**
- *print_to_98 - prints all ntatural numbers
+ * print_to_98 - prints all ntatural numbers
  *@w: number to represent natural numbers from 0 to 98
  */
 void print_to_98(int w)
 {
-if (n > 98)
+if (w > 98)
 {
-for (; n > 98; n--)
+for (; w  > 98; w--)
 {
-printf(" % d", n)
+printf(" % d", w);
 }
 }
-else if (n < 98)
+else if (w < 98)
 {
-for (; n < 98; n++)
+for (; w < 98; w++)
 {
-printf(" % d", n)
+printf(" % d", w);
 }
 }
-printf(" % d", n);
+printf(" % d", w);
 }
