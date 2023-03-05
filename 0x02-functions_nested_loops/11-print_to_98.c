@@ -13,7 +13,7 @@ while (w >= cap_num)
 {
 if (w != cap_num)
 {
-printf(" % d, ", w);
+printf(" % d", w);
 }
 else
 {
@@ -28,7 +28,7 @@ while (w <= cap_num)
 {
 if (w != cap_num)
 {
-printf(" % d, ", w);
+printf(" % d", w);
 }
 else
 {
