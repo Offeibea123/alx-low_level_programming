@@ -29,7 +29,7 @@ while (w <= cap_num)
 if (w != cap_num)
 {
 printf(" % d ", w);
-)
+}
 else
 {
 printf(" % d ", w);
