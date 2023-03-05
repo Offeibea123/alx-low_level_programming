@@ -1,18 +1,37 @@
 #include <stdio.h>
 /**
-* main - Prints natural numbers below 1024 that are
-* multiplies of 3 or 5
-*
-* Return: Always 0.
+ * main - program entry
+ *
+ * Return: Always returns 0
 */
+
 int main(void)
 {
-int a, b;
-for (a = 1; a < 1024; a++)
-{
-if ((a % 3) == 0 || (a % 5) == 0)
-b += a;
+	fibonacci();
+	return (0);
 }
-printf(" % d\n", b);
-return (0);
+
+/**
+ * fibonacci - Prints the sum of preceeding 2 numbers upto 50
+*/
+void fibonacci(void)
+{
+	int i = 1, upper = 50;
+	long min = 1, max = 2;
+
+	while (i <= upper)
+	{
+		if (i == 1)
+			printf("%ld", min);
+		else if (i == 2)
+			printf(", %ld", max);
+		else
+		{
+			max += min;
+			min = max - min;
+			printf(", %ld", max);
+		}
+		i++;
+	}
+	printf("\n");
 }
