@@ -21,7 +21,8 @@ printf(" % d ", w);
 }
 w--;
 }
-}else
+}
+else
 {
 while (w <= cap_num)
 {
