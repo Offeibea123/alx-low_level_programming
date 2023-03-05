@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /**
  *print_to_98 - prints all ntatural numbers
  *@w: number to represent natural numbers from 0 to 98
@@ -13,11 +14,11 @@ while (w >= cap_num)
 {
 if (w != cap_num)
 {
-printf(" % d", w);
+printf(" % d, ", w);
 }
 else
 {
-printf(" % d, ", w);
+printf(" % d", w);
 }
 w--;
 }
@@ -28,11 +29,11 @@ while (w <= cap_num)
 {
 if (w != cap_num)
 {
-printf(" % d", w);
+printf(" % d, ", w);
 }
 else
 {
-printf(" % d, ", w);
+printf(" % d", w);
 }
 w++;
 }
