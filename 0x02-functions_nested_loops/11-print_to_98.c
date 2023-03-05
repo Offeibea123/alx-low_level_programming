@@ -13,11 +13,11 @@ while (w >= cap_num)
 {
 if (w != cap_num)
 {
-printf(" % d", w);
+printf(" % d, ", w);
 }
 else
 {
-printf(" % d", w);
+printf(" % d, ", w);
 }
 w--;
 }
@@ -28,11 +28,11 @@ while (w <= cap_num)
 {
 if (w != cap_num)
 {
-printf(" % d", w);
+printf(" % d, ", w);
 }
 else
 {
-printf(" % d", w);
+printf(" % d, ", w);
 }
 w++;
 }
