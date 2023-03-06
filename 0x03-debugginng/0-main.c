@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- *main - tests function that that prints integer
- *Return: 0
+ * main - tests function that that prints integer
+ * Return: 0
  */
 int main(void)
 {
