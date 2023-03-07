@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strncat - a function that links two strings
+ *_strncat - a function that links two strings
  *@dest: inputs for src
  *@src: inputs for dest
  *@n: bytes for src
