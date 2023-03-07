@@ -1,9 +1,9 @@
 #include "main.h"
 /**
  * _strncat - a function that links two strings
- *@dest: inputs for src
- *@src: inputs for dest
- *@n: bytes for src
+ * @dest: inputs for src
+ * @src: inputs for dest
+ * @n: bytes for src
  *Return: 0 (Always success)
  */
 char *_strncat(char *dest, char *src, int n);
